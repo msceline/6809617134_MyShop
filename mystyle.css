@@ -1,0 +1,241 @@
+body {
+    background-image: url("/resources/bg.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.shop p {
+    font-size: 20px;
+    color: black;
+    font-family: Fc Fast;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+#coffeeshop {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 640px;
+    height: 360px;
+    border: 2px groove black;
+}
+
+h2 {
+    text-align: left;
+    font-size: 36px;
+    color: #074304;
+    font-family: FC Fast;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.promotion {
+    text-align: left;
+    font-size: 16px;
+    color: red;
+    font-family: FC Fast;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.beverages table {
+    background-image: url("/resources/paper.jpg");
+}
+
+.beverages img {
+    width: 80px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beverages th {
+    font-family: FC Fastest;
+    font-size: 20px;
+    color: red;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #000000;
+}
+
+#tea {
+    font-size: 20px;
+    color: #336E0B;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#coffee {
+    font-size: 20px;
+    color: #AB601B;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#soda {
+    font-size: 20px;
+    color: #54B7F0;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#juice {
+    font-size: 20px;
+    color: #F054AA;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.beverages td {
+    font-family: FC Fast;
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
+
+.addons table {
+    background-image: url("/resources/paper.jpg");
+}
+
+.addons th {
+    font-family: FC Fastest;
+    font-size: 20px;
+    color: red;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #000000;
+}
+
+.addons td {
+    font-family: FC Fast;
+    font-size: 16px;
+}
+
+.desserts table {
+    background-image: url("/resources/paper.jpg");
+}
+
+.desserts th {
+    font-family: FC Fastest;
+    font-size: 20px;
+    color: red;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #000000;
+}
+
+.desserts td {
+    font-family: FC Fast;
+    font-size: 16px;
+}
+
+.desserts img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desserts td {
+    text-align: left;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    font-family: Fc Faster;
+    font-size: 24px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#website {
+    color: #5E5C5C;
+}
+
+#facebook {
+    color: #4267B2;
+}
+
+#instagram {
+    color: #d62976;
+}
+
+#line {
+    color: #00B900;
+}
+
+a:link {
+    font-family: Fc Faster;
+    font-size: 20px;
+    color: black;
+}
+
+#telephone {
+    color: #D90F3E;
+}
+
+#number {
+    font-size: 20px;
+    color: black;
+    font-family: Fc Faster;
+    text-decoration-line: underline;
+}
+
+img {
+    border: 2px groove black;
+}
