@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 
 <head>
-    <title>My Shop</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
-    <a href="https://www.sweetea.com"><img id="logo" alt="logo" src="/resources/Sweetea's logo.PNG"></a>
-    
+    <div class="button">
+        <a href="http://127.0.0.1:3000/index.html?serverWindowId=0036b381-c22d-4559-846b-e35683bd11e5"><img id="logo" alt="logo" src="/resources/Sweetea’s logo.png"></a>
+        <span class="bvr">
+            <a href="http://127.0.0.1:3000/my1stcategory.html?serverWindowId=0036b381-c22d-4559-846b-e35683bd11e5">Beverages</a>
+        </span>
+        <span class="ds">
+            <a href="http://127.0.0.1:3000/my2ndcategory.html?serverWindowId=0036b381-c22d-4559-846b-e35683bd11e5">Desserts</a>
+        </span>
+    </div>
+    <hr>
+
+    <br>
     <div class="shop">
         <img id="coffeeshop" alt="Coffee shop" src="/resources/coffeeshop.jpg">
         <p>"Sweetea was found with the concept that we want to send love to you from beverages that are delicately made with premium grade ingredients by professional baristas."</p>
@@ -59,7 +69,7 @@
                         <span class="name">Blue Hawaii soda</span>
                         <span class="price">65 ฿</span>
                     </div>
-                    <img alt="Blue Hawaii" src="/resources/bluehawaii.jpg">
+                    <img alt="Blue Hawaii soda" src="/resources/bluehawaii.jpg">
                 </td>
                 <td width="20%">
                     <div class="menu">
@@ -109,10 +119,10 @@
                 </td>
                 <td width="20%">
                     <div class="menu">
-                        <span class="name">Latte</span>
+                        <span class="name">Coffee latte</span>
                         <span class="price">70 ฿</span>
                     </div>
-                    <img alt="Latte" src="/resources/latte.jpg">
+                    <img alt="Coffee latte" src="/resources/coffeelatte.jpg">
                 </td>
                 <td width="20%">
                     <div class="menu">
@@ -165,7 +175,7 @@
                         <span class="name">Jusmine tea</span>
                         <span class="price">60 ฿</span>
                     </div>
-                    <img alt="Jusmine tea" src="/resources/jusminetea.jpg">
+                    <img alt="Jasmine tea" src="/resources/jasminetea.jpg">
                 </td>
                 <td width="20%">
                     <div class="menu">
@@ -226,7 +236,7 @@
                         <span class="name">Affogato</span>
                         <span class="price">80 ฿</span>
                     </div>
-                    <img alt="Apple juice" src="/resources/applejuice.jpg">
+                    <img alt="Affogato" src="/resources/affogato.jpg">
                 </td>
                 <td width="20%"></td>
                 <td width="20%">
@@ -264,19 +274,26 @@
     
     <div class="addons">
     <center>
-        <table border="1" cellpadding="10" cellspacing="0" width="80%">
+        <table border="1" cellpadding="10" cellspacing="0" width="78%">
             <tr>
-                <th colspan width="40%"><p>Size</p></th>
-                <th colspan width="40%"><p>Add-ons</p></th>
+                <th colspan width="26%"><p>Type</p></th>
+                <th colspan width="26%"><p>Size</p></th>
+                <th colspan width="26%"><p>Add-ons</p></th>
             </tr>
             <tr>
-                <td width="40%">
+                <td width="26%">
+                    <div class="menu">
+                        <span class="name">Hot</span>
+                        <span class="price">- ฿</span>
+                    </div>
+                </td>
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Regular</span>
                         <span class="price">+10 ฿</span>
                     </div>
                 </td>
-                <td width="40%">
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Espresso shot</span>
                         <span class="price">+10 ฿</span>
@@ -284,13 +301,19 @@
                 </td>
             </tr>
             <tr>
-                <td width="40%">
+                <td width="26%">
+                    <div class="menu">
+                        <span class="name">Cold</span>
+                        <span class="price">- ฿</span>
+                    </div>
+                </td>
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Medium</span>
                         <span class="price">+10 ฿</span>
                     </div>
                 </td>
-                <td width="40%">
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Boba</span>
                         <span class="price">+10 ฿</span>
@@ -298,13 +321,19 @@
                 </td>
             </tr>
             <tr>
-                <td width="40%">
+                <td width="26%">
+                    <div class="menu">
+                        <span class="name">Frappe</span>
+                        <span class="price">+5 ฿</span>
+                    </div>
+                </td>                
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Large</span>
                         <span class="price">+15 ฿</span>
                     </div>
                 </td>
-                <td width="40%">
+                <td width="26%">
                     <div class="menu">
                         <span class="name">Whipping cream</span>
                         <span class="price">+15 ฿</span>
@@ -367,7 +396,7 @@
                         <span class="price">65 ฿</span>
                     </div>
                 </td>
-                <td width="55%"><img alt="Berry Cheesecake" src="/resources/berrycheescake.jpg"></td>
+                <td width="55%"><img alt="Berry cheesecake" src="/resources/berrycheescake.jpg"></td>
             </tr>
             <tr>
                 <td width="25%">
@@ -390,20 +419,21 @@
             <tr>
                 <td width="25%">
                     <div class="menu">
-                        <span class="name">Vanilla Macaron<br>(1 pcs.)</span>
+                        <span class="name">Vanilla macaron<br>(1 pcs.)</span>
                         <span class="price">55 ฿</span>
                     </div>
                 </td>
-                <td width="55%"><img alt="Vanilla Macaron" src="/resources/vanillamacaron.jpg"></td>
+                <td width="55%"><img alt="Vanilla macaron" src="/resources/vanillamacaron.jpg"></td>
             </tr>
         </table>
     </center>
     </div>
+    
     <h2>contact</h2>
     <div class="contact">
     <address>
         <p id="website">Website </p>
-        <a href="https://www.sweetea.com">www.sweetea.com</a>
+        <a href="http://127.0.0.1:3000/index.html?serverWindowId=80252a19-7789-40a3-89ad-641c08bd9a01">www.sweetea.com</a>
         <p id="facebook">Facebook </p>
         <a href="https://www.facebook.com/officialsweetea?locale=th_TH">Sweetea Official</a>
         <p id="instagram">Instagram </p>
