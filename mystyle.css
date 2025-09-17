@@ -7,10 +7,11 @@ body {
 
 #logo {
     width: 150px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
+    height: 80px;
+    display: inline-block;
+    margin-left: 100px;
     margin-right: auto;
+    margin-top: 10px;
     border: none;
 }
 
@@ -84,7 +85,7 @@ h2 {
 
 .beverages th {
     font-family: FC Fastest;
-    font-size: 20px;
+    font-size: 28px;
     color: red;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
@@ -93,29 +94,37 @@ h2 {
     text-decoration-color: #000000;
 }
 
+.beverages a:link {
+    color: red;
+}
+
+.beverages a:visited {
+    color: red;
+}
+
 #tea {
-    font-size: 20px;
+    font-size: 24px;
     color: #336E0B;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
 
 #coffee {
-    font-size: 20px;
+    font-size: 24px;
     color: #AB601B;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
 
 #soda {
-    font-size: 20px;
+    font-size: 24px;
     color: #54B7F0;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
 
 #juice {
-    font-size: 20px;
+    font-size: 24px;
     color: #F054AA;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
@@ -146,8 +155,8 @@ h2 {
 
 .addons th {
     font-family: FC Fastest;
-    font-size: 20px;
-    color: red;
+    font-size: 28px;
+    color: blue;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
     text-decoration-line: underline;
@@ -166,13 +175,21 @@ h2 {
 
 .desserts th {
     font-family: FC Fastest;
-    font-size: 20px;
-    color: red;
+    font-size: 28px;
+    color: yellow;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-color: #000000;
+}
+
+.desserts a:link {
+    color: yellow;
+}
+
+.desserts a:visited {
+    color: yellow;
 }
 
 .desserts td {
@@ -202,6 +219,17 @@ h2 {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
+.contact a:link {
+    font-family: Fc Faster;
+    font-size: 20px;
+    color: black;
+}
+
+.contact a:visited {
+    font-family: Fc Faster;
+    font-size: 20px;
+    color: black;
+}
 
 #website {
     color: #5E5C5C;
@@ -219,12 +247,6 @@ h2 {
     color: #00B900;
 }
 
-a:link {
-    font-family: Fc Faster;
-    font-size: 20px;
-    color: black;
-}
-
 #telephone {
     color: #D90F3E;
 }
@@ -234,8 +256,182 @@ a:link {
     color: black;
     font-family: Fc Faster;
     text-decoration-line: underline;
+    -webkit-text-stroke: 0px;
 }
 
 img {
     border: 2px groove black;
+}
+
+.heading {
+    color: red;
+    font-size: 36px;
+    font-family: FC Fast;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.bvr a:link {
+    font-family: FC Fast;
+    font-size: 28px;
+    color: #074304;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 800px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bvr a:visited {
+    font-family: FC Fast;
+    font-size: 28px;
+    color: #074304;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 800px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ds a:link {
+    font-family: FC Fast;
+    font-size: 28px;
+    color: #074304;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ds a:visited {
+    font-family: FC Fast;
+    font-size: 28px;
+    color: #074304;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.detail img {
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menuname {
+    color: black;
+    font-size: 20px;
+    font-family: FC Fast;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+.description {
+    color: black;
+    font-size: 16px;
+    font-family: FC Faster;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+}
+
+#ttype {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #336E0B;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+#ctype {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #AB601B;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+#stype {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #54B7F0;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+#jtype {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #F054AA;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+#cake {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #C9B45B;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+#dessert {
+    font-family: FC Fast;
+    text-align: center;
+    font-size: 30px;
+    color: #5E4E07;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
 }
