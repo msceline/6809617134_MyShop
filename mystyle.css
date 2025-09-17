@@ -1,5 +1,5 @@
 body {
-    background-image: url("/resources/bg.jpg");
+    background-image: url("resources/bg.jpg");
 
     background-size: cover;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .beverages table {
-    background-image: url("/resources/paper.jpg");
+    background-image: url("resources/paper.jpg");
 }
 
 .beverages img {
@@ -150,7 +150,7 @@ h2 {
 }
 
 .addons table {
-    background-image: url("/resources/paper.jpg");
+    background-image: url("resources/paper.jpg");
 }
 
 .addons th {
@@ -170,7 +170,7 @@ h2 {
 }
 
 .desserts table {
-    background-image: url("/resources/paper.jpg");
+    background-image: url("resources/paper.jpg");
 }
 
 .desserts th {
